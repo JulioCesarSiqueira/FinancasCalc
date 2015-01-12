@@ -11,7 +11,8 @@ To test, download the files and Compile on your favorite IDE or use the simple j
 
 The class wich contain the main method is "Principal.class"
 
-Please, execute it to test. 
+Please, execute it to test:
+ 
 	java Principal 
 
 
