@@ -74,27 +74,32 @@ public class Tela extends JFrame {
 				break;
 
 			case JurosSimples :
+				frameInterno = new FrameJurosSimples(150,500);
 				System.out.println("Juros Simples");
 				break;
 
 
 
 			case MontanteComposto :
+				frameInterno = new FrameMontanteComposto(150,500);
 				System.out.println("Montante Composto");
 				break;
 
 
 			case TaxaComposto :
+				frameInterno = new FrameTaxaComposto(600,300);
 				System.out.println("Taxa Composto");
 				break;
 
 
 			case JurosComposto :
+				frameInterno = new FrameJurosComposto(150,500);
 				System.out.println("Juros Composto");
 				break;								
 
 
 			case Sobre :
+				frameInterno = new FrameSobre(500,300);
 				System.out.println("Sobre");
 				break;
 

@@ -33,8 +33,8 @@ public abstract class FrameInterno extends JInternalFrame {
 	protected abstract void pegaValoresDigitados();
 
 	public void mudaPosicao(){
-		posicaoY+=10;
-        posicaoY+=10;
+		posicaoY+=20;
+        posicaoY+=20;
       
 	}
 
